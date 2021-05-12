@@ -1,15 +1,16 @@
 import ImageOne from '../images/img-1.jpeg'
 import ImageTwo from '../images/img-2.jpeg'
 import ImageThree from '../images/img-4.jpeg'
+import ImageFour from '../images/img-3.jpeg'
 
-export const InfoData = {
+export const InfoDataOne = {
     heading: 'Explore our beautiful homes',
     paragraphOne: 
     'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore odio adipisci fugiat deleniti fuga, esse, asperiores blanditiis a voluptates voluptate animi hic ut id aliquid nulla quam temporibus.',
     paragraphTwo: 
     'Labore odio adipisci fugiat deleniti fuga, esse, asperiores blanditiis a voluptates voluptate animi hic ut id aliquid nulla quam temporibus.',
-    buttonLabel: 'View Homes',
-    image: ImageOne,
+    buttonLabel: 'Home',
+    image: ImageFour,
     reverse: true,
 }
 
@@ -19,7 +20,7 @@ export const InfoDataTwo = {
     'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore odio adipisci fugiat deleniti fuga, esse, asperiores blanditiis a voluptates voluptate animi hic ut id aliquid nulla quam temporibus.',
     paragraphTwo: 
     'Labore odio adipisci fugiat deleniti fuga, esse, asperiores blanditiis a voluptates voluptate animi hic ut id aliquid nulla quam temporibus.',
-    buttonLabel: 'View Homes',
+    buttonLabel: 'Blogs',
     image: ImageTwo,
     reverse: false,
     
@@ -31,7 +32,7 @@ export const InfoDataThree = {
     'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore odio adipisci fugiat deleniti fuga, esse, asperiores blanditiis a voluptates voluptate animi hic ut id aliquid nulla quam temporibus.',
     paragraphTwo: 
     'Labore odio adipisci fugiat deleniti fuga, esse, asperiores blanditiis a voluptates voluptate animi hic ut id aliquid nulla quam temporibus.',
-    buttonLabel: 'View Homes',
+    buttonLabel: 'About',
     image: ImageThree,
     reverse: true,
     

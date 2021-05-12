@@ -75,12 +75,30 @@ const HeroContent = styled.div`
         text-transform: uppercase;
         text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
         text-align: left;
+        max-width: 320px;
         margin-bottom: 0.8rem;
     }
+
+    ag {
+        font-size: clamp(1rem, 8vw, 2rem);
+        font-weight: 800;
+        text-transform: uppercase;
+        text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+        text-align: left;
+        max-width: 320px;
+        margin-bottom: 0.8rem;
+        background: #FF8F1C;
+        background: -webkit-linear-gradient(to right, #FF8F1C 0%, #FFFFFF 50%, #509E2F 100%);
+        background: -moz-linear-gradient(to right, #FF8F1C 0%, #FFFFFF 50%, #509E2F 100%);
+        background: linear-gradient(to right, #FF8F1C 0%, #FFFFFF 50%, #509E2F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
 
     p {
         margin-bottom: 1.2rem;
         text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+        max-width: 280px;
     }
 `;
 
@@ -113,7 +131,7 @@ const arrowButtons = css`
     transition: 0.3s;
 
     &:hover {
-        background: #cd853f;
+        background: black;
         transform: scale(1.05);
     }
 `;
@@ -135,7 +153,7 @@ const Hero = ({slides}) => {
         const nextSlide =() => {
             setCurrent(current => (current === length -1 ? 0 : current + 1))
         }
-        timeout.current = setTimeout(nextSlide, 3000)
+        timeout.current = setTimeout(nextSlide, 4000)
 
         return function() {
             clearTimeout(timeout.current)
@@ -164,7 +182,9 @@ const Hero = ({slides}) => {
                                 <HeroSlider>
                                 <HeroImage src={slide.image} alt={slide.alt}/>
                                 <HeroContent>
-                                    <h1>{slide.title}</h1>
+                                    <h1>{slide.title1}</h1>
+                                    <ag>{slide.title2}</ag>
+                                    <h1>{slide.title3}</h1>
                                     <p>{slide.prices}</p>
                                     <Button to={slide.path} primary="true"
                                     css={'max-width: 160px;'}

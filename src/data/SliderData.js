@@ -5,34 +5,42 @@ import ImageFour from '../images/img-4.jpeg'
 
 export const SliderData = [
     {
-        title: 'We Are VREPRESENTINDIA Ventures',
-        prices: 'A step towards the innovative world',
+        title1: 'Here Are',
+        title2: 'VREPRESENTINDIA',
+        title3: 'Ventures_',
+        prices: 'A step towards the innovative world. Get in Touch soon.',
         path: '/homes',
-        label: 'view home',
+        label: 'view blogs',
         image: ImageOne,
         alt: 'House'
     },
     {
-        title: 'We Are VREPRESENTINDIA Ventures',
-        prices: 'A step towards the innovative world',
+        title1: 'Here Are',
+        title2: 'VREPRESENTINDIA',
+        title3: 'Ventures_',
+        prices: 'A step towards the innovative world. Get in Touch soon.',
         path: '/homes',
-        label: 'view home',
+        label: 'view blogs',
         image: ImageTwo,
         alt: 'House'
     },
     {
-        title: 'We Are VREPRESENTINDIA Ventures',
-        prices: 'A step towards the innovative world',
+        title1: 'Here Are',
+        title2: 'VREPRESENTINDIA',
+        title3: 'Ventures_',
+        prices: 'A step towards the innovative world. Get in Touch soon.',
         path: '/homes',
-        label: 'view home',
+        label: 'view blogs',
         image: ImageThree,
         alt: 'House'
     },
     {
-        title: 'We Are VREPRESENTINDIA Ventures',
-        prices: 'A step towards the innovative world',
+        title1: 'Here Are',
+        title2: 'VREPRESENTINDIA',
+        title3: 'Ventures_',
+        prices: 'A step towards the innovative world. Get in Touch soon.',
         path: '/homes',
-        label: 'view home',
+        label: 'view blogs',
         image: ImageFour,
         alt: 'House'
     }
