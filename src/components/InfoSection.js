@@ -6,19 +6,21 @@ const Section = styled.section`
     width: 100%;
     height: 100%;
     padding: 4rem 0rem;
-    background: #1e1e61;
+    background: rgb(0,27,54);
+    background: radial-gradient(circle, rgba(0,27,54,1) 100%, rgba(30,30,97,1) 100%, rgba(0,212,255,1) 100%);
 `;
 const Container = styled.div`
     padding: 3rem calc((100vw - 1300px)/ 2);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 400px;
+    
 
     @media screen and (max-width: 768px) {
         grid-template-columns: 1fr;
         grid-template-rows: 300px;
-        padding: 10px;
-        margin-top: 10px;
+        padding: 0px;
+        margin-top: 80px!important;
     }
 `;
 const ColumnLeft = styled.div`
@@ -53,7 +55,7 @@ const ColumnRight = styled.div`
     @media screen and (max-width: 768px) {
         order: ${({reverse}) => (reverse ? '2' : '1' )};
         padding: 0.5rem;
-        margin-top: 10px;
+        margin-top: 20px;
         overflow: hidden;
     }
 

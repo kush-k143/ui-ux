@@ -1,5 +1,6 @@
-import ImageOne from '../images/house-1.jpg'
-import ImageTwo from '../images/house-2.jpg'
+import ImageOne from '../images/img-1.jpeg'
+import ImageTwo from '../images/img-2.jpeg'
+import ImageThree from '../images/img-4.jpeg'
 
 export const InfoData = {
     heading: 'Explore our beautiful homes',
@@ -31,7 +32,7 @@ export const InfoDataThree = {
     paragraphTwo: 
     'Labore odio adipisci fugiat deleniti fuga, esse, asperiores blanditiis a voluptates voluptate animi hic ut id aliquid nulla quam temporibus.',
     buttonLabel: 'View Homes',
-    image: ImageTwo,
+    image: ImageThree,
     reverse: true,
     
 }
